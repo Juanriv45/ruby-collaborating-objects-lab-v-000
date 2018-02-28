@@ -19,6 +19,7 @@ class Artist
     if self.find(artist_new).nil? then
       artist = Artist.new(artist_new)
       artist.save
+      arist
     end
   end
   def self.find(artist)
