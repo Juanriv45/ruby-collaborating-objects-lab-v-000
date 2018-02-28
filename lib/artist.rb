@@ -19,7 +19,7 @@ class Artist
   def add_song(song)
     @songs << song
   end
-  def print
+  def print_songs
     @songs.each {|x| puts x}
   end
 end
