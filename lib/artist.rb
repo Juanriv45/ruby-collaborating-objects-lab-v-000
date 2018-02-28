@@ -20,6 +20,5 @@ class Artist
       artist.name == artist_new
     end
       artist = Artist.new(artist_new)
-    end
   end
 end
