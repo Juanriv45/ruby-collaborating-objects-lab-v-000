@@ -23,6 +23,6 @@ class Artist
     end
   end
   def self.find(artist)
-    self.all.find {|artist| artist.name == artist_new}
+    @@all.find {|artist| artist.name == artist_new}
   end
 end
