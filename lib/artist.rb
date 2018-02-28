@@ -15,6 +15,9 @@ class Artist
   def self.all
     @@all
   end
+  def add_song(song)
+    @songs << song
+  end
   def print
     @songs.each {|x| puts x}
   end
