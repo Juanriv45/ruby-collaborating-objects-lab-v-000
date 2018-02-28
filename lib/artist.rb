@@ -17,8 +17,7 @@ class Artist
   end
   def self.find_or_create_by_name(artist_new)
     if self.find(artist_new).nil? then
-      artist = Artist.new(artist_new)
-      artist.save
+      artist = Artist.new(artist_new).save
       arist
     end
   end
