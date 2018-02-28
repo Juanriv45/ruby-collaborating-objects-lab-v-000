@@ -19,6 +19,5 @@ class Artist
     self.all.find |artist| then
       artist.name == artist_new
     end
-      artist = Artist.new(artist_new)
   end
 end
