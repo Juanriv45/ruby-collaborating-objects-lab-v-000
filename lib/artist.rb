@@ -20,5 +20,6 @@ class Artist
       @@all.artist
     else
       artist = Artist.new(artist_new)
+    end
   end
 end
