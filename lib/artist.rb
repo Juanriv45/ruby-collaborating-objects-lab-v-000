@@ -15,4 +15,10 @@ class Artist
   def self.all
     @@all
   end
+  def find_or_create_by_name(artist_new)
+    if @@all.include?(artist_new) then
+      @@all.artist
+    else
+      artist = Artist.new(artist_new)
+  end
 end
